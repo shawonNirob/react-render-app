@@ -1,19 +1,149 @@
 body {
-  margin: 30px;
-  padding: 30px;
-  font-family: Arial, sans-serif;
+  margin: 0; /* Removes the default margin around the body element */
+  padding: 0; /* Removes the default padding inside the body element */
+  font-family: Arial, sans-serif; /* Sets the font for the entire document */
+  background-color: #0b31f2; /* Sets the background color of the body */
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Center horizontally */
-  justify-content: center; /* Center vertically */
-  min-height: 100vh; /* Full height of the viewport */
-  text-align: center; /* Center text */
+  display: flex; /* Activates the Flexbox layout model for this container. */
+  flex-direction: column; /* Arranges child elements in a vertical column. */
+  align-items: center; /* Horizontally centers the child elements within the container. */
+  justify-content: flex-start; /* Aligns child elements to the top of the container. */
+  min-height: 100vh; /* Sets the minimum height to 100% of the viewport height, ensuring the container fills the screen. */
+  padding: 20px; /* Adds 20 pixels of padding inside the container on all sides. */
+  text-align: center; /* Centers the text within the container. */
+  
+  margin-bottom: 200px; /* Adds a margin of 200 pixels below the container, creating space between it and any following elements. */
+  border: 1px solid #0a2283; /* Adds a solid border with a specific color (dark blue). */
+  border-radius: 10px; /* Rounds the corners of the border with a 10-pixel radius. */
+  box-shadow: 0 0 10px 0 rgba(53, 27, 251, 0.938); /* Adds a shadow effect around the container, creating depth. */
+  background-color: #b5bce7c3; /* Sets a light, semi-transparent background color for the container. */
+}
+
+.title {
+  color: #333; /* Dark gray */
+  margin-bottom: 20px; /* Space below title */
+}
+
+.nav-list {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+}
+
+.nav-list li {
+  display: inline; /* Display items in a line */
+  margin: 0 15px; /* Space between items */
+}
+
+.nav-list a {
+  text-decoration: none; /* Remove underline */
+  color: #007bff; /* Bootstrap primary color */
+  transition: color 0.3s; /* Transition effect on hover */
+}
+
+.nav-list a:hover {
+  color: #0056b3; /* Darker blue on hover */
 }
 
 .main {
-  width: 100%; /* Ensure main takes full width */
-  max-width: 800px; /* Limit max width for better readability */
+  width: 100%; /* Full width */
+  max-width: 800px; /* Max width for readability */
+  margin-top: 20px; /* Space above main content */
+}
+
+.section-title {
+  color: #2e8b57; /* Sea green color */
+  margin-top: 20px; /* Space above section titles */
+}
+
+.section-description {
+  font-size: 1.1em; /* Slightly larger font */
+  margin-bottom: 20px; /* Space below description */
+}
+
+.unordered-list {
+  text-align: left; /* Align text left */
+  padding-left: 20px; /* Indent list */
+}
+
+.ordered-list {
+  text-align: left; /* Align text left */
+  padding-left: 20px; /* Indent list */
+}
+
+.image-example {
+  max-width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.styled-table {
+  width: 100%; /* Full width */
+  border-collapse: collapse; /* Collapse borders */
+  margin: 20px 0; /* Margin around table */
+}
+
+.styled-table th, .styled-table td {
+  border: 1px solid #ddd; /* Light gray border */
+  padding: 8px; /* Padding in cells */
+}
+
+.styled-table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Zebra striping for rows */
+}
+
+.styled-table th {
+  background-color: #4CAF50; /* Green header */
+  color: white; /* White text for headers */
+}
+
+.form-example {
+  margin-top: 20px; /* Space above form */
+}
+
+.text-input {
+  padding: 10px; /* Padding inside input */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.submit-button {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  padding: 10px 15px; /* Padding for button */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+}
+
+.submit-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.click-button {
+  background-color: #008CBA; /* Blue background */
+  color: white; /* White text */
+  padding: 10px 15px; /* Padding for button */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+}
+
+.click-button:hover {
+  background-color: #007B9E; /* Darker blue on hover */
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 600px) {
+  .container {
+      padding: 10px; /* Less padding on smaller screens */
+  }
+
+  .title {
+      font-size: 1.5em; /* Adjust title size */
+  }
+
+  .section-title {
+      font-size: 1.2em; /* Adjust section title size */
+  }
 }
