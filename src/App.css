@@ -18,7 +18,7 @@ body {
   border: 1px solid #0a2283; /* Adds a solid border with a specific color (dark blue). */
   border-radius: 10px; /* Rounds the corners of the border with a 10-pixel radius. */
   box-shadow: 0 0 10px 0 rgba(53, 27, 251, 0.938); /* Adds a shadow effect around the container, creating depth. */
-  background-color: #b5bce7c3; /* Sets a light, semi-transparent background color for the container. */
+  background-color: #072decc3; /* Sets a light, semi-transparent background color for the container. */
 }
 
 .title {
@@ -131,6 +131,15 @@ body {
 
 .click-button:hover {
   background-color: #007B9E; /* Darker blue on hover */
+}
+
+.overflow-example {
+  width: 200px; /* Fixed width for the container */
+  height: 100px; /* Fixed height for the container */
+  border: 1px solid #ccc; /* Light gray border */
+  padding: 10px; /* Padding inside the container */
+  overflow: auto; /* Adds scrollbars only when necessary */
+  background-color: #f0f8ff; /* Light background color */
 }
 
 /* Media Query for responsiveness */

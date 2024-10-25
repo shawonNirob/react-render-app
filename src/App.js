@@ -22,6 +22,15 @@ const App = () => {
 
                 <section id="content">
                     <h2 className="section-title">Content Overview</h2>
+                    
+                    <div className="overflow-example">
+                        <h3>Overflow Example</h3>
+                        <p>This paragraph is long enough to overflow its container. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </section>
+
+                <section id="content">
+                    <h2 className="section-title">Content Overview</h2>
                     <p>This section includes examples of different HTML tags:</p>
 
                     <h3>Lists</h3>
