@@ -1,0 +1,17 @@
+node_modules
+
+.DS_Store
+.env
+.git
+.gitignore
+.npmrc
+
+build
+dist
+coverage
+
+*.log
+*.swp
+.vscode
+.idea
+
