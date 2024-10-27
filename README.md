@@ -1,5 +1,3 @@
-Here’s an updated README with instructions for both using only the Dockerfile and using `docker-compose`:
-
 ---
 
 # React Research and Development Application (Dockerized)
@@ -101,8 +99,6 @@ This will stop and remove the container.
 
 - **Dockerfile** - Defines how to build the Docker image with Nginx serving the React app.
 - **docker-compose.yml** - Provides an easy way to manage the Docker container configuration.
-
----
 
 ## Goals
 
