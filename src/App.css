@@ -2,7 +2,7 @@ body {
   margin: 0; /* Removes the default margin around the body element */
   padding: 0; /* Removes the default padding inside the body element */
   font-family: Arial, sans-serif; /* Sets the font for the entire document */
-  background-color: #071594; /* Sets the background color of the body */
+  background-color: #423902; /* Sets the background color of the body */
 }
 
 .container {
@@ -18,7 +18,7 @@ body {
   border: 1px solid #0a2283; /* Adds a solid border with a specific color (dark blue). */
   border-radius: 10px; /* Rounds the corners of the border with a 10-pixel radius. */
   box-shadow: 0 0 10px 0 rgba(53, 27, 251, 0.938); /* Adds a shadow effect around the container, creating depth. */
-  background-color: #13257dfe; /* Sets a light, semi-transparent background color for the container. */
+  background-color: #273372fe; /* Sets a light, semi-transparent background color for the container. */
 }
 
 .title {
