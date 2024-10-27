@@ -40,10 +40,10 @@ docker build -t react-render-app .
 
 To run the application in a Docker container:
 ```bash
-docker run -p 3001:3000 react-research-app
+docker run -p 3001:80 react-render-app
 ```
 
-This maps port `3000` of the container to port `3001` on your machine. You should now be able to view the app in your browser at `http://localhost:3001`.
+This maps port `80` of the container to port `3001` on your machine. You should now be able to view the app in your browser at `http://localhost:3001`.
 
 ### Stopping the Container
 
